@@ -4,8 +4,7 @@ import react from "@vitejs/plugin-react";
 import fs from "node:fs";
 import path from "node:path";
 import { defineConfig, type Plugin, type ViteDevServer } from "vite";
-import { publicPlatformScript } from "./server/_core/publicConfig.ts";
-
+import { publicPlatformScript } from "./publicConfig.ts";
 // =============================================================================
 // Manus Debug Collector - Vite Plugin
 // Writes browser logs directly to files, trimmed when exceeding size limit
